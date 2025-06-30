@@ -1,6 +1,6 @@
 package Java_Practice.Singleton;
 
-import Java_Practice.designpattern.Eager;
+import designpattern.Eager;
 
 public class Example {
 
