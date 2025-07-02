@@ -9,7 +9,7 @@ public class SaveStudent {
             FileOutputStream fileOut = new FileOutputStream("student.txt");
             ObjectOutputStream out = new ObjectOutputStream(fileOut);
 
-            out.writeObject(s);  // Save the student object
+            out.writeObject(s);  
 
             out.close();
             fileOut.close();
