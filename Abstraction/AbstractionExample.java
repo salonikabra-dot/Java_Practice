@@ -1,11 +1,11 @@
 package Java_Practice.Abstraction;
 
-// Abstract class
+
 abstract class Animal {
-    // Abstract method (no body)
+    
     abstract void makeSound();
 
-    // Regular method
+    
     void eat() {
         System.out.println("This animal eats food.");
     }
