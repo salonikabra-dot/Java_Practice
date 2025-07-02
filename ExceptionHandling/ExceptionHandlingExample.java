@@ -2,15 +2,15 @@ package Java_Practice.ExceptionHandling;
 public class ExceptionHandlingExample {
     public static void main(String[] args) {
         try {
-            // Example 1: ArithmeticException (division by zero)
+            
             int a = 10;
             int b = 0;
-            int result = a / b;  // This will throw ArithmeticException
+            int result = a / b;  
             System.out.println("Result: " + result);
 
-            // Example 2: NumberFormatException
+            
             String number = "abc";
-            int num = Integer.parseInt(number);  // This will throw NumberFormatException
+            int num = Integer.parseInt(number);  
             System.out.println("Parsed number: " + num);
 
         } catch (ArithmeticException e) {
